@@ -10,6 +10,6 @@ require 'pry'
 
 def get_the_values(groceries)
   groceries.keys.flatten.each do |value|
-    print value
+    puts value
   end
 end
