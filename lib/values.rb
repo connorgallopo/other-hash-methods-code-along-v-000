@@ -9,7 +9,5 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  groceries.keys.flatten.each do |x|
-    x
-  end
+  groceries.keys.flatten
 end
